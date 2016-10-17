@@ -6,6 +6,7 @@
 - vim
 - vundle.vim
 - snake(https://github.com/amoffat/snake)
+
 主要设计功能如下:
 - 在vim中输入news,获取最新的体育资讯并展示.
 - 输入close,关闭展示界面,退回原来的编辑界面
