@@ -3,7 +3,6 @@
 # E-mail: weiyanjie10@gmail.com
 import requests
 from snake import *
-import time
 
 
 url = "localhost:8080/url_to_latest_news"
@@ -26,10 +25,6 @@ def close_news():
     global former_contents
     buf = get_current_buffer()
     set_buffer_contents(buf, former_contents)
-
-
-
-
 
 
 if __name__ == '__main__':
